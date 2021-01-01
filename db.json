@@ -1,0 +1,130 @@
+{
+  "brand": [
+    {
+      "id": "samsung@samsung.com",
+      "name": "samsungSony",
+      "email": "samsung@sony.com",
+      "password": "samsung",
+      "token": "SamsungAuthToken"
+    },
+    {
+      "id": "lg@lg.com",
+      "name": "lg-pakistan",
+      "email": "lg@lg.com",
+      "password": "123456",
+      "token": "lg-pakistan"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "Challenges": [
+    {
+      "id": "bGZT6La",
+      "name": "Apples",
+      "brandId": "2",
+      "description": "eat eat eat",
+      "reward": 766,
+      "expire": "2020-12-24T06:53:54.326Z",
+      "status": "completed"
+    },
+    {
+      "id": "IQEGNJP",
+      "name": "Bike stunt",
+      "brandId": "",
+      "description": "Perform bike stunt",
+      "reward": 500,
+      "expire": "2020-12-24T09:05:40.342Z",
+      "status": "Incomplete"
+    },
+    {
+      "id": "LY3ecwe",
+      "name": "car racing",
+      "brandId": "",
+      "description": "perform a car race",
+      "reward": 8999,
+      "expire": "2020-12-28T07:37:16.964Z",
+      "status": "Incomplete"
+    },
+    {
+      "id": "VwjCB64",
+      "name": "water bucket challenge",
+      "brandId": "",
+      "description": "a simple cold water bucket challenge",
+      "reward": 344,
+      "expire": "2020-12-29T13:39:07.419Z",
+      "status": "Incomplete"
+    },
+    {
+      "id": "9Nx6K08",
+      "name": "make a video",
+      "brandId": "",
+      "description": "make a video of your every day routine",
+      "reward": 8999,
+      "expire": "2020-12-30T09:34:22.584Z",
+      "status": "Incomplete"
+    },
+    {
+      "id": "aN4Fsxx",
+      "name": "Productionserver",
+      "brandId": "",
+      "description": "aaaaaaaaaaaaaaaaa",
+      "reward": 333,
+      "expire": "2020-12-30T14:26:39.608Z",
+      "status": "Incomplete"
+    },
+    {
+      "id": "KSjMFO9",
+      "name": "myChallenge",
+      "brandId": "",
+      "description": "aaaaaaaaaaaaaaaaa",
+      "reward": 22,
+      "expire": "2020-12-31T07:56:44.698Z",
+      "status": "Incomplete"
+    }
+  ],
+  "tricks": [
+    {
+      "id": 1,
+      "userId": 3,
+      "challengeId": "bGZT6La",
+      "description": "I have eaten 13 apples",
+      "isWon": false
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "challengeId": "bGZT6La",
+      "description": "I have eaten 12 apples",
+      "isWon": true
+    },
+    {
+      "id": 1,
+      "userId": 3,
+      "challengeId": "bGZT6La",
+      "description": "I have eaten 13 apples",
+      "isWon": false
+    },
+    {
+      "id": 1,
+      "userId": 4,
+      "challengeId": "bGZT6La",
+      "description": "I have eaten 14 apples",
+      "isWon": false
+    },
+    {
+      "id": 1,
+      "userId": 5,
+      "challengeId": "bGZT6La",
+      "description": "I have eaten 15 apples",
+      "isWon": false
+    }
+  ]
+}
